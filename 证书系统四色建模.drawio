@@ -1,0 +1,274 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.5">
+  <diagram name="第 1 页" id="mWp78409uoa36O_2-O2k">
+    <mxGraphModel dx="3920" dy="2333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_-S63rQR0KdD_YKPthwn-84" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="30" y="622.5" width="1840" height="1707.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="430" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-3" value="DDD四色建模图例" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="140" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="140" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="140" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-8" value="聚合根" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-9" value="聚合根" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-10" value="值对象" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="345" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-11" value="领域服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="425" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-12" value="业务实体的根，管理聚合内的一致性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="185" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-13" value="具有唯一标识的业务对象" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="265" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-14" value="不可变的值类型对象" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="350" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-15" value="封装业务逻辑的无状态服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="425" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="42" y="1240" width="446" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-17" value="身份验证上下文(RA)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1250" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1300" width="180" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-19" value="&lt;div&gt;EnrollmentRequestAggregate&lt;/div&gt;核验请求聚合根" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1313.75" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-20" value="TaskEntity&lt;div&gt;任务实体&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1405" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-21" value="VettingRecordEntity&lt;div&gt;审核记录实体&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-22" value="&lt;div&gt;EnrollmentStatusVO&lt;/div&gt;&lt;div&gt;申请状态&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-23" value="&lt;div&gt;VettingOutcomeVO&lt;/div&gt;&lt;div&gt;审核结果&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-24" value="&lt;div&gt;ApplicantDetailsVO&lt;/div&gt;&lt;div&gt;申请人信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-25" value="&lt;div&gt;CertificateSigning&lt;/div&gt;&lt;div&gt;RequestVO&lt;/div&gt;&lt;div&gt;解析后的CSR&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-26" value="&lt;div&gt;TaskStateVO&lt;/div&gt;&lt;div&gt;任务状态&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-27" value="&lt;div&gt;IdentityProof&lt;/div&gt;&lt;div&gt;审核依据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-28" value="&lt;div&gt;EnrollmentRequestService&lt;/div&gt;&lt;div&gt;身份验证领域服务&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1740" width="180" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="1338.25" as="sourcePoint" />
+            <mxPoint x="780" y="1338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-30" value="证书请求审核通过" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1300" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-31" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1230" width="400" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-32" value="&lt;div&gt;CertificateAuthorityAggregate&lt;/div&gt;&lt;div&gt;证书签名聚合根&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="914" y="1290" width="180" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-33" value="&lt;div&gt;IssuedCertificateRecord&lt;/div&gt;&lt;div&gt;Entity&lt;/div&gt;&lt;div&gt;签发证书实体&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="935" y="1380" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-34" value="&lt;div&gt;OperationalPolicyVO&lt;/div&gt;&lt;div&gt;操作约束&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1465" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-35" value="&lt;div&gt;CertificateAuthoritytService&lt;/div&gt;&lt;div&gt;证书签名服务&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="919" y="1720" width="180" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-36" value="&lt;div&gt;CertificateProfileVO&lt;/div&gt;&lt;div&gt;证书策略&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1470" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-37" value="证书签名上下文" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="939" y="1245" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-38" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="790" y="630" width="446" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-39" value="&lt;div&gt;CertificateProfileAggregate&lt;/div&gt;&lt;div&gt;证书策略聚合根&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="923" y="682.5" width="180" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-40" value="&lt;div&gt;ExtensionTemplateEntity&lt;/div&gt;&lt;div&gt;扩展模板实体&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="940" y="760" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-41" value="&lt;div&gt;ProfileStatusVO&lt;/div&gt;&lt;div&gt;证书策略状态&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="840" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-42" value="&lt;div&gt;CertificateProfiletService&lt;/div&gt;&lt;div&gt;证书签名服务&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="935" y="1080" width="180" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-43" value="&lt;div&gt;KeySpecificationVO&lt;/div&gt;&lt;div&gt;密钥类型&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="822" y="840" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-44" value="证书策略上下文" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="948" y="645" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-45" value="&lt;div&gt;SubjectDnConstraintVO&lt;/div&gt;&lt;div&gt;主题&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="819" y="920" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-46" value="&lt;div&gt;ValidityPeriodVO&lt;/div&gt;&lt;div&gt;有效期&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="920" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-47" value="&lt;div&gt;KeyUsageConstraintVO&lt;/div&gt;&lt;div&gt;密钥用途约束&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="822" y="1000" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-48" value="&lt;div&gt; ExtendedKey&lt;/div&gt;&lt;div&gt;UsageConstraintVO&lt;/div&gt;&lt;div&gt;扩展密钥用途约束&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1058" y="1000" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="1290" as="sourcePoint" />
+            <mxPoint x="1010" y="1171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-50" value="验证证书请求文件是否符合证书策略" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-51" value="获取证书扩展模板" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="1330" as="sourcePoint" />
+            <mxPoint x="1380" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-53" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1190" width="446" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-54" value="&lt;div&gt;&lt;div&gt;ManagedCertificate&lt;/div&gt;Aggregate&lt;/div&gt;&lt;div&gt;证书聚合根&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1513" y="1242.5" width="180" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-55" value="&lt;div&gt;RevocationInfoVO&lt;/div&gt;&lt;div&gt;撤销信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1651" y="1340" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-56" value="&lt;div&gt;ManagedCertificateService&lt;/div&gt;&lt;div&gt;证书生命周期管理服务&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1513" y="1590" width="180" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-57" value="&lt;div&gt;CertificateDetailsVO&lt;/div&gt;&lt;div&gt;证书详细信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1345" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-58" value="证书生命周期管理上下文" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1538" y="1205" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-59" value="&lt;div&gt;ValidityVO&lt;/div&gt;&lt;div&gt;有效期&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1430" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-60" value="&lt;div&gt;CertificateStatusVO&lt;/div&gt;&lt;div&gt;证书状态&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1655" y="1430" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-61" value="&lt;div&gt;RevocationReasonVO&lt;/div&gt;&lt;div&gt;撤销原因&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="1510" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-62" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1900" width="446" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-63" value="&lt;div&gt;&lt;div&gt;RevocationStatusCache&lt;/div&gt;Aggregate&lt;/div&gt;&lt;div&gt;撤销状态缓存聚合根&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="923" y="1952.5" width="180" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-64" value="&lt;div&gt;OcspRequestDataVO&lt;/div&gt;&lt;div&gt;撤销信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="2050" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-65" value="&lt;div&gt;&lt;div&gt;RevocationStatusCache&lt;/div&gt;Service&lt;/div&gt;&lt;div&gt;撤销状态缓存服务&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="923" y="2230" width="180" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-66" value="&lt;div&gt;CrlDataVO&lt;/div&gt;&lt;div&gt;crl信息信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="830" y="2050" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-67" value="在线证书状态查询上下文" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="948" y="1915" width="142" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-68" value="&lt;div&gt;OcspResponseDataVO&lt;/div&gt;&lt;div&gt;有效期&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="830" y="2150" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-69" value="&lt;div&gt;RevocationStatusVO&lt;/div&gt;&lt;div&gt;证书状态&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1063" y="2150" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-70" value="签发证书" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="1300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-71" value="&lt;div&gt;RevocationInfoVO&lt;/div&gt;&lt;div&gt;撤销信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1560" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-72" value="&lt;div&gt;SigningAlgorithmVO&lt;/div&gt;&lt;div&gt;签名算法&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1560" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-73" value="&lt;div&gt;ValidityPeriodVO&lt;/div&gt;&lt;div&gt;有效期&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="943" y="1640" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-74" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="777" y="125" width="446" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-75" value="&lt;div&gt;&lt;div&gt;AuditEventAggregate&lt;/div&gt;&lt;/div&gt;&lt;div&gt;审计聚合根&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="910" y="177.5" width="180" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-76" value="&lt;div&gt;AuditEventService&lt;/div&gt;&lt;div&gt;审计服务&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="910" y="377.5" width="180" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-77" value="审计与日志上下文" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="935" y="140" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-78" value="&lt;div&gt;EventPayloadVO&lt;/div&gt;&lt;div&gt;负载&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="817" y="290" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-79" value="&lt;div&gt;PrincipalVO&lt;/div&gt;&lt;div&gt;标识&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1052" y="290" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.533;exitY=0.903;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_-S63rQR0KdD_YKPthwn-32" target="_-S63rQR0KdD_YKPthwn-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1005" y="1370" as="sourcePoint" />
+            <mxPoint x="1050" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-81" value="生成证书撤销列表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1018" y="1850" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-82" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.532;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="992" y="480" as="sourcePoint" />
+            <mxPoint x="992.2800000000002" y="618.3900000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-S63rQR0KdD_YKPthwn-83" value="记录日志" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1009" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

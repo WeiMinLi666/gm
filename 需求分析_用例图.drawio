@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="第 1 页" id="Cq8Vfh9fg83UKIDHZaDj">
+    <mxGraphModel dx="997" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zal1BsNQl3IVblVu1Hp6-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="460" width="460" x="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zal1BsNQl3IVblVu1Hp6-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="前端设备 (Device)" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="zal1BsNQl3IVblVu1Hp6-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="视频管理平台 (VMS)" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zal1BsNQl3IVblVu1Hp6-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="终端用户 (User/U-Key)" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="zal1BsNQl3IVblVu1Hp6-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="系统管理员 (Admin)" vertex="1">
+          <mxGeometry height="60" width="30" x="720" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zal1BsNQl3IVblVu1Hp6-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="申请混合签名证书" vertex="1">
+          <mxGeometry height="60" width="100" x="230" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="zal1BsNQl3IVblVu1Hp6-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="下载加密密钥包" vertex="1">
+          <mxGeometry height="60" width="100" x="230" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="zal1BsNQl3IVblVu1Hp6-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="下载CRL/证书链" vertex="1">
+          <mxGeometry height="60" width="100" x="230" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="zal1BsNQl3IVblVu1Hp6-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="生成混合加密密钥" vertex="1">
+          <mxGeometry height="60" width="100" x="240" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="zal1BsNQl3IVblVu1Hp6-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="配置PQC策略" vertex="1">
+          <mxGeometry height="60" width="100" x="414" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zal1BsNQl3IVblVu1Hp6-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="吊销证书" vertex="1">
+          <mxGeometry height="60" width="100" x="430" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="zal1BsNQl3IVblVu1Hp6-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="恢复历史密钥" vertex="1">
+          <mxGeometry height="60" width="100" x="380" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="zal1BsNQl3IVblVu1Hp6-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="执行sidecar" vertex="1">
+          <mxGeometry height="60" width="100" x="364" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

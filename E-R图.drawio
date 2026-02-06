@@ -1,101 +1,881 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1223" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2399" dy="1019" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-1" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;" parent="1" source="C-vyLk0tnHw3VtMMgP7b-24" target="C-vyLk0tnHw3VtMMgP7b-6" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="340" y="720" as="sourcePoint" />
-            <mxPoint x="440" y="620" as="targetPoint" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="主体" vertex="1">
+          <mxGeometry height="40" width="100" x="143" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-10" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-1" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="243" y="323" as="sourcePoint" />
+            <mxPoint x="323" y="323" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-12" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;" parent="1" source="C-vyLk0tnHw3VtMMgP7b-3" target="C-vyLk0tnHw3VtMMgP7b-17" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="400" y="180" as="sourcePoint" />
-            <mxPoint x="460" y="205" as="targetPoint" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="发起" vertex="1">
+          <mxGeometry height="60" width="100" x="323" y="293" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="423" y="323" as="sourcePoint" />
+            <mxPoint x="513" y="323" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-2" value="Orders" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="120" width="250" height="130" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-17" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="n" vertex="1">
+          <mxGeometry relative="1" x="-0.1" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
-          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="证书申请" vertex="1">
+          <mxGeometry height="40" width="100" x="523" y="303" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-4" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-3" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="243" y="408" as="sourcePoint" />
+            <mxPoint x="313" y="508" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-5" value="order_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-3" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="拥有" vertex="1">
+          <mxGeometry height="60" width="100" x="333" y="478" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-6" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
-          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-20" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="433" y="508" as="sourcePoint" />
+            <mxPoint x="523" y="508" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-7" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-6" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-21" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="n" vertex="1">
+          <mxGeometry relative="1" x="-0.1" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-8" value="customer_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-6" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="证书" vertex="1">
+          <mxGeometry height="40" width="100" x="523" y="488" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-9" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
-          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-26" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="623" y="323" as="sourcePoint" />
+            <mxPoint x="683" y="323" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-10" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-9" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-33" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0..1)" vertex="1">
+          <mxGeometry relative="1" x="0.0667" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-11" value="order_date date NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-9" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-27" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="生成" vertex="1">
+          <mxGeometry height="60" width="100" x="683" y="293" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-13" value="Shipments" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="280" width="250" height="130" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-28" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="623" y="508" as="sourcePoint" />
+            <mxPoint x="683" y="508" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-14" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
-          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-34" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0..1)" vertex="1">
+          <mxGeometry relative="1" x="0.1" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-15" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-14" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-29" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="关联" vertex="1">
+          <mxGeometry height="60" width="100" x="683" y="478" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-16" value="shipment_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-14" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-30" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-27" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="783" y="388" as="sourcePoint" />
+            <mxPoint x="843" y="448" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
-          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-35" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0..1)" vertex="1">
+          <mxGeometry relative="1" x="-0.15" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-18" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-17" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-31" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="783" y="508" as="sourcePoint" />
+            <mxPoint x="843" y="448" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-19" value="order_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-17" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-36" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0..1)" vertex="1">
+          <mxGeometry relative="1" x="-0.1667" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-20" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
-          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-37" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="892.5" y="318" as="sourcePoint" />
+            <mxPoint x="892.5" y="258" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-21" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-20" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-43" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.0667" y="-1" as="geometry">
+            <mxPoint x="-20" y="10" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-22" value="shipment_date date NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-20" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SidecarObject" vertex="1">
+          <mxGeometry height="40" width="100" x="843" y="428" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-23" value="Customers" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="120" width="250" height="100" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-40" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="发起" vertex="1">
+          <mxGeometry height="60" width="100" x="843" y="318" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-24" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-23" vertex="1">
-          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-41" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="892.5" y="438" as="sourcePoint" />
+            <mxPoint x="892.5" y="378" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-25" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-24" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-44" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-26" value="customer_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-24" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SidecarCommit" vertex="1">
+          <mxGeometry height="40" width="100" x="843" y="218" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-27" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-23" vertex="1">
-          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-46" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="943" y="238" as="sourcePoint" />
+            <mxPoint x="1003" y="238" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-28" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-50" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-29" value="customer_name char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-47" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="发起" vertex="1">
+          <mxGeometry height="60" width="100" x="1003" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-48" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1103" y="238" as="sourcePoint" />
+            <mxPoint x="1193" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-51" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="n" vertex="1">
+          <mxGeometry relative="1" x="0.0667" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SideCarCommitItem" vertex="1">
+          <mxGeometry height="40" width="120" x="1193" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CA实例" vertex="1">
+          <mxGeometry height="50" width="100" x="523" y="668" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-54" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="573" y="568" as="sourcePoint" />
+            <mxPoint x="573" y="528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-58" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="n" vertex="1">
+          <mxGeometry relative="1" x="0.05" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-55" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="签发" vertex="1">
+          <mxGeometry height="60" width="100" x="523" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-56" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="572.5" y="668" as="sourcePoint" />
+            <mxPoint x="572.5" y="628" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-57" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.05" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-59" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="623" y="698" as="sourcePoint" />
+            <mxPoint x="693" y="698" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-64" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.3143" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-60" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="发布" vertex="1">
+          <mxGeometry height="60" width="100" x="693" y="668" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-61" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-62" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="793" y="698" as="sourcePoint" />
+            <mxPoint x="833" y="698" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-65" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="n" vertex="1">
+          <mxGeometry relative="1" x="-0.16" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="证书撤销列表" vertex="1">
+          <mxGeometry height="50" width="100" x="843" y="673" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-66" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-68" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="892.5" y="673" as="sourcePoint" />
+            <mxPoint x="892.5" y="623" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-69" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-66" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="（0..1）" vertex="1">
+          <mxGeometry relative="1" x="0.0932" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-67" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-68" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="893" y="528" as="sourcePoint" />
+            <mxPoint x="893" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-70" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0..1)" vertex="1">
+          <mxGeometry relative="1" x="-0.1429" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-68" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="存储" vertex="1">
+          <mxGeometry height="60" width="100" x="843" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="kmc_key" vertex="1">
+          <mxGeometry height="40" width="100" x="87" y="606" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-74" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="183" y="448" as="sourcePoint" />
+            <mxPoint x="183" y="408" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-78" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.25" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-75" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="拥有" vertex="1">
+          <mxGeometry height="60" width="100" x="133" y="448" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-76" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="127" y="606" as="sourcePoint" />
+            <mxPoint x="183" y="509" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-79" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-76" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="n" vertex="1">
+          <mxGeometry relative="1" x="0.28" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-80" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="17" y="626" as="sourcePoint" />
+            <mxPoint x="87" y="626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-84" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-80" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.3143" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-82" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="分发" vertex="1">
+          <mxGeometry height="60" width="100" x="-83" y="596" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-83" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-153" y="626" as="sourcePoint" />
+            <mxPoint x="-83" y="626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-85" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-83" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="n" vertex="1">
+          <mxGeometry relative="1" x="-0.4286" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-87" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="kmc_distribution" vertex="1">
+          <mxGeometry height="40" width="100" x="-253" y="606" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-88" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="373" y="658" as="sourcePoint" />
+            <mxPoint x="523" y="528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-93" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0..N)" vertex="1">
+          <mxGeometry relative="1" x="0.034" y="2" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-89" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="控制" vertex="1">
+          <mxGeometry height="60" width="100" x="323" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-90" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="373" y="768" as="sourcePoint" />
+            <mxPoint x="373" y="718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-94" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-90" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0..N)" vertex="1">
+          <mxGeometry relative="1" x="0.24" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="sys_pqc_policy" vertex="1">
+          <mxGeometry height="40" width="100" x="323" y="768" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-121" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-38" style="endArrow=none;html=1;rounded=0;entryX=0.35;entryY=0.133;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" target="WFi_aL-HGk-xRaFXW_gp-122" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1053" y="458" as="sourcePoint" />
+            <mxPoint x="1093" y="408" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-122" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="ID" vertex="1">
+          <mxGeometry height="30" width="40" x="983" y="363" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-124" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="关联主体ID" vertex="1">
+          <mxGeometry height="40" width="50" x="1043" y="383" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-125" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-42" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.39;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="WFi_aL-HGk-xRaFXW_gp-126" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="860" y="218" as="sourcePoint" />
+            <mxPoint x="800" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-126" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="ID" vertex="1">
+          <mxGeometry height="30" width="40" x="803" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-127" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-42" style="endArrow=none;html=1;rounded=0;entryX=0.275;entryY=0.88;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.39;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="893" y="253.2" as="sourcePoint" />
+            <mxPoint x="883" y="147.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-128" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="根哈希" vertex="1">
+          <mxGeometry height="40" width="40" x="863" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-129" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-42" style="endArrow=none;html=1;rounded=0;exitX=0.41;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-130" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="938.8578643762694" y="218" as="sourcePoint" />
+            <mxPoint x="939" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-130" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="哈希算法" vertex="1">
+          <mxGeometry height="40" width="40" x="933" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-131" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="WFi_aL-HGk-xRaFXW_gp-124" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="943" y="448" as="sourcePoint" />
+            <mxPoint x="997" y="409" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-132" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="950" y="450" as="sourcePoint" />
+            <mxPoint x="1053" y="458" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-133" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="对象类型" vertex="1">
+          <mxGeometry height="40" width="50" x="1053" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-134" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-38" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="WFi_aL-HGk-xRaFXW_gp-135" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="943" y="458" as="sourcePoint" />
+            <mxPoint x="1043" y="498" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-135" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="对象存储位置" vertex="1">
+          <mxGeometry height="40" width="50" x="1053" y="488" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-136" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-38" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1033" y="538" as="sourcePoint" />
+            <mxPoint x="943" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-137" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="状态" vertex="1">
+          <mxGeometry height="40" width="50" x="1028" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-141" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-142" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1240" y="218" as="sourcePoint" />
+            <mxPoint x="1140" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-142" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="ID" vertex="1">
+          <mxGeometry height="30" width="40" x="1160" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-143" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-144" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1238" y="220" as="sourcePoint" />
+            <mxPoint x="1230" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-144" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="对象ID" vertex="1">
+          <mxGeometry height="40" width="40" x="1200" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-145" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-146" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1240" y="220" as="sourcePoint" />
+            <mxPoint x="1279" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-146" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="叶子序号" vertex="1">
+          <mxGeometry height="40" width="50" x="1260" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-147" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-148" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1240" y="218" as="sourcePoint" />
+            <mxPoint x="1323" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-149" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-150" style="endArrow=none;html=1;rounded=0;entryX=0.41;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.7;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" target="WFi_aL-HGk-xRaFXW_gp-53" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="503" y="758" as="sourcePoint" />
+            <mxPoint x="523" y="718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-150" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="ID" vertex="1">
+          <mxGeometry height="30" width="40" x="498" y="765.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-151" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="562.5" y="788" as="sourcePoint" />
+            <mxPoint x="562.5" y="718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-152" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="CA名称" vertex="1">
+          <mxGeometry height="40" width="50" x="538" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-153" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="613" y="768" as="sourcePoint" />
+            <mxPoint x="560" y="718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-154" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="CA状态" vertex="1">
+          <mxGeometry height="30" width="50" x="593" y="768" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-179" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-280" y="686" as="sourcePoint" />
+            <mxPoint x="-200" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-180" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="ID" vertex="1">
+          <mxGeometry height="30" width="40" x="-300" y="686" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-181" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-240.5" y="716" as="sourcePoint" />
+            <mxPoint x="-200" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-182" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="关联密钥ID" vertex="1">
+          <mxGeometry height="40" width="50" x="-265" y="716" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-183" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-186" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-205" y="696" as="sourcePoint" />
+            <mxPoint x="-200" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-184" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-150" y="691" as="sourcePoint" />
+            <mxPoint x="-200" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-185" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="WFi_aL-HGk-xRaFXW_gp-186" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-205" y="696" as="sourcePoint" />
+            <mxPoint x="-215" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-186" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="主体ID" vertex="1">
+          <mxGeometry height="35" width="57.5" x="-227.5" y="686" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-187" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="封装使用密钥ID" vertex="1">
+          <mxGeometry height="42.5" width="50" x="-160" y="688.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-188" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-200" y="646" as="sourcePoint" />
+            <mxPoint x="-90" y="681" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-189" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="状态" vertex="1">
+          <mxGeometry height="30" width="40" x="-100" y="681" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-203" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="10" y="478" as="sourcePoint" />
+            <mxPoint x="133" y="478" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-207" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-203" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="n" vertex="1">
+          <mxGeometry relative="1" x="-0.1382" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-205" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="kmc-kek" vertex="1">
+          <mxGeometry height="42" width="97" x="-80" y="457" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-206" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.61;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-33.5" y="598" as="sourcePoint" />
+            <mxPoint x="-32.5" y="501" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-208" connectable="0" parent="WFi_aL-HGk-xRaFXW_gp-206" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.1139" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-209" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-210" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-31" y="455" as="sourcePoint" />
+            <mxPoint x="-104" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-210" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ID" vertex="1">
+          <mxGeometry height="30" width="40" x="-144" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-211" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-212" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-31" y="457" as="sourcePoint" />
+            <mxPoint x="-54" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-212" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="密钥主体ID" vertex="1">
+          <mxGeometry height="40" width="56" x="-110" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-213" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.425;entryY=1.08;entryDx=0;entryDy=0;entryPerimeter=0;" target="WFi_aL-HGk-xRaFXW_gp-214" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-34" y="455" as="sourcePoint" />
+            <mxPoint x="26" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-214" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="密钥类型" vertex="1">
+          <mxGeometry height="40" width="46" x="-50" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-215" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.275;entryY=0.88;entryDx=0;entryDy=0;entryPerimeter=0;" target="WFi_aL-HGk-xRaFXW_gp-216" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-31" y="455" as="sourcePoint" />
+            <mxPoint x="16" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-216" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="版本号" vertex="1">
+          <mxGeometry height="40" width="40" x="-14" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-217" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-218" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-31" y="455" as="sourcePoint" />
+            <mxPoint x="36" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-218" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="状态" vertex="1">
+          <mxGeometry height="40" width="40" x="36" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-219" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-220" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="368" as="sourcePoint" />
+            <mxPoint x="119" y="316" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-220" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ID" vertex="1">
+          <mxGeometry height="30" width="40" x="76" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-221" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.47;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="187" y="367" as="sourcePoint" />
+            <mxPoint x="144" y="291" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-222" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="类型" vertex="1">
+          <mxGeometry height="40" width="50" x="116" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-223" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-1" style="endArrow=none;html=1;rounded=0;entryX=0.425;entryY=1.08;entryDx=0;entryDy=0;entryPerimeter=0;" target="WFi_aL-HGk-xRaFXW_gp-224" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="187" y="364" as="sourcePoint" />
+            <mxPoint x="247" y="294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-224" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="名称" vertex="1">
+          <mxGeometry height="30" width="40" x="177" y="229" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-225" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-1" style="endArrow=none;html=1;rounded=0;entryX=0.275;entryY=0.88;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="WFi_aL-HGk-xRaFXW_gp-226" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="189" y="364" as="sourcePoint" />
+            <mxPoint x="237" y="304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-226" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="状态" vertex="1">
+          <mxGeometry height="40" width="40" x="243" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-229" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="56" y="686" as="sourcePoint" />
+            <mxPoint x="136" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-230" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="ID" vertex="1">
+          <mxGeometry height="30" width="40" x="36" y="686" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-231" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="95.5" y="716" as="sourcePoint" />
+            <mxPoint x="136" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-232" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="密钥主体ID" vertex="1">
+          <mxGeometry height="40" width="50" x="71" y="716" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-233" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-236" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="131" y="696" as="sourcePoint" />
+            <mxPoint x="136" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-234" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="186" y="691" as="sourcePoint" />
+            <mxPoint x="136" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-235" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="WFi_aL-HGk-xRaFXW_gp-236" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="131" y="696" as="sourcePoint" />
+            <mxPoint x="121" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-236" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="用途" vertex="1">
+          <mxGeometry height="35" width="57.5" x="108.5" y="686" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-237" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="PQC算法标识" vertex="1">
+          <mxGeometry height="42.5" width="50" x="176" y="688.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-238" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="136" y="646" as="sourcePoint" />
+            <mxPoint x="246" y="681" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-239" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="状态" vertex="1">
+          <mxGeometry height="30" width="40" x="236" y="681" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-240" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-241" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="571" y="303" as="sourcePoint" />
+            <mxPoint x="498" y="253" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-241" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ID" vertex="1">
+          <mxGeometry height="30" width="40" x="458" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-242" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-243" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="571" y="303" as="sourcePoint" />
+            <mxPoint x="548" y="231" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-243" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="关联主体ID" vertex="1">
+          <mxGeometry height="40" width="56" x="492" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-244" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.425;entryY=1.08;entryDx=0;entryDy=0;entryPerimeter=0;" target="WFi_aL-HGk-xRaFXW_gp-245" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="568" y="303" as="sourcePoint" />
+            <mxPoint x="628" y="233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-245" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="模式" vertex="1">
+          <mxGeometry height="40" width="46" x="552" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-246" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.275;entryY=0.88;entryDx=0;entryDy=0;entryPerimeter=0;" target="WFi_aL-HGk-xRaFXW_gp-247" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="571" y="303" as="sourcePoint" />
+            <mxPoint x="618" y="243" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-247" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="证书序列号" vertex="1">
+          <mxGeometry height="40" width="40" x="588" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-248" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-249" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="571" y="303" as="sourcePoint" />
+            <mxPoint x="638" y="233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-249" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="申请状态" vertex="1">
+          <mxGeometry height="40" width="40" x="638" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-250" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-251" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="571" y="488" as="sourcePoint" />
+            <mxPoint x="498" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-251" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ID" vertex="1">
+          <mxGeometry height="30" width="40" x="458" y="403" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-252" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-253" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="571" y="488" as="sourcePoint" />
+            <mxPoint x="548" y="416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-253" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="序列号" vertex="1">
+          <mxGeometry height="40" width="56" x="492" y="373" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-254" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.425;entryY=1.08;entryDx=0;entryDy=0;entryPerimeter=0;" target="WFi_aL-HGk-xRaFXW_gp-255" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="568" y="488" as="sourcePoint" />
+            <mxPoint x="628" y="418" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-255" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="状态" vertex="1">
+          <mxGeometry height="40" width="46" x="547" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-256" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.275;entryY=0.88;entryDx=0;entryDy=0;entryPerimeter=0;" target="WFi_aL-HGk-xRaFXW_gp-257" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="571" y="488" as="sourcePoint" />
+            <mxPoint x="618" y="428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-257" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Sidecar&lt;div&gt;对象ID&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="40" x="588" y="383" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-258" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="WFi_aL-HGk-xRaFXW_gp-259" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="571" y="488" as="sourcePoint" />
+            <mxPoint x="638" y="418" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-259" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="根哈希" vertex="1">
+          <mxGeometry height="40" width="40" x="638" y="393" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-260" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="571.5" y="484" as="sourcePoint" />
+            <mxPoint x="657" y="463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-261" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="版本号" vertex="1">
+          <mxGeometry height="40" width="40" x="660" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-262" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="WFi_aL-HGk-xRaFXW_gp-148" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1240" y="218" as="sourcePoint" />
+            <mxPoint x="1323" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-148" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="叶子哈希" vertex="1">
+          <mxGeometry height="35" width="50" x="1290" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-263" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="296" y="848" as="sourcePoint" />
+            <mxPoint x="376" y="808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-264" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="ID" vertex="1">
+          <mxGeometry height="30" width="40" x="276" y="848" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-265" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="335.5" y="878" as="sourcePoint" />
+            <mxPoint x="376" y="808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-266" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="版本号" vertex="1">
+          <mxGeometry height="40" width="50" x="311" y="878" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-267" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-270" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="371" y="858" as="sourcePoint" />
+            <mxPoint x="376" y="808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-268" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="426" y="853" as="sourcePoint" />
+            <mxPoint x="376" y="808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-269" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="WFi_aL-HGk-xRaFXW_gp-270" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="371" y="858" as="sourcePoint" />
+            <mxPoint x="361" y="808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-270" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="算法" vertex="1">
+          <mxGeometry height="35" width="57.5" x="348.5" y="848" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-271" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="安全等级" vertex="1">
+          <mxGeometry height="42.5" width="50" x="416" y="850.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-272" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="376" y="808" as="sourcePoint" />
+            <mxPoint x="486" y="843" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-273" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="是否启用" vertex="1">
+          <mxGeometry height="30" width="40" x="476" y="843" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-274" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="813" y="763" as="sourcePoint" />
+            <mxPoint x="893" y="723" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-275" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="ID" vertex="1">
+          <mxGeometry height="30" width="40" x="793" y="763" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-276" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="852.5" y="793" as="sourcePoint" />
+            <mxPoint x="893" y="723" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-277" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="CA_ID" vertex="1">
+          <mxGeometry height="40" width="50" x="828" y="793" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-278" edge="1" parent="1" source="WFi_aL-HGk-xRaFXW_gp-281" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="888" y="773" as="sourcePoint" />
+            <mxPoint x="893" y="723" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-279" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="943" y="768" as="sourcePoint" />
+            <mxPoint x="893" y="723" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-280" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="WFi_aL-HGk-xRaFXW_gp-281" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="888" y="773" as="sourcePoint" />
+            <mxPoint x="878" y="723" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-281" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="CRL版本号" vertex="1">
+          <mxGeometry height="35" width="57.5" x="865.5" y="763" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-282" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="CRL文件对象ID" vertex="1">
+          <mxGeometry height="42.5" width="50" x="933" y="765.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-283" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="893" y="723" as="sourcePoint" />
+            <mxPoint x="1003" y="758" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFi_aL-HGk-xRaFXW_gp-284" parent="1" style="ellipse;whiteSpace=wrap;html=1;flipH=1;legacyAnchorPoints=0;direction=west;" value="状态" vertex="1">
+          <mxGeometry height="30" width="40" x="993" y="758" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
